@@ -1,0 +1,170 @@
+{
+
+    "JR Hokkaido": {
+        "basic": {
+            "name": {
+                "jp": "北海道旅客鉄道",
+                "en": "Hokkaido Railway Company"
+            },
+            "short name": "JR北海道",
+            "category": "JR",
+            "headquarters": "北海道札幌市中央区",
+            "founded": 1987,
+        },
+
+        "detail": {
+            "status": "営業中",
+            "total_distance_km": 2240.5,
+            "lines count": 13,
+            "stations count": 317,
+            "company": ["JR", "北海道", "特殊会社"]
+        },
+
+        "corporate": {
+            "color str": "ライトグリーン",
+        },
+
+        "notes": "国鉄分割民営化により発足。三島会社の一つで経営基盤は脆弱。北海道新幹線を運営。",
+        "Last updated": "2026.6/21"
+    },
+
+    "JR East": {
+        "basic": {
+            "name": {
+                "jp": "東日本旅客鉄道",
+                "en": "East Japan Railway Company"
+            },
+            "short name": "JR東日本",
+            "category": "JR",
+            "headquarters": "東京都渋谷区",
+            "founded": 1987,
+        },
+
+        "detail": {
+            "status": "営業中",
+            "total_distance_km": 7401.7,
+            "lines count": 106,
+            "stations count": 1652,
+            "company": ["JR", "東日本", "民営"]
+        },
+
+        "corporate": {
+            "color str": "緑",
+        },
+
+        "notes": "国鉄分割民営化により発足。JRグループ最大規模。東北・関東地方をカバー。",
+        "Last updated": "2026.6/21"
+    },
+
+    "JR Central": {
+        "basic": {
+            "name": {
+                "jp": "東海旅客鉄道",
+                "en": "Central Japan Railway Company"
+            },
+            "short name": "JR東海",
+            "category": "JR",
+            "headquarters": "愛知県名古屋市中村区",
+            "founded": 1987,
+        },
+
+        "detail": {
+            "status": "営業中",
+            "total_distance_km": 1970.8,
+            "lines count": 12,
+            "stations count": 423,
+            "company": ["JR", "東海", "民営"]
+        },
+
+        "corporate": {
+            "color str": "オレンジ",
+        },
+
+        "notes": "国鉄分割民営化により発足。東海道新幹線が経営の最大の柱で、JRグループ中最も新幹線収益比率が高い。",
+        "Last updated": "2026.6/21"
+    },
+
+    "JR West": {
+        "basic": {
+            "name": {
+                "jp": "西日本旅客鉄道",
+                "en": "West Japan Railway Company"
+            },
+            "short name": "JR西日本",
+            "category": "JR",
+            "headquarters": "大阪府大阪市北区",
+            "founded": 1987,
+        },
+
+        "detail": {
+            "status": "営業中",
+            "total_distance_km": 4900.0,
+            "lines count": 38,
+            "stations count": 1200,
+            "company": ["JR", "西日本", "民営"]
+        },
+
+        "corporate": {
+            "color str": "青",
+        },
+
+        "notes": "国鉄分割民営化により発足。近畿圏・中国・北陸地方をカバー。",
+        "Last updated": "2026.6/21"
+    },
+
+    "JR Shikoku": {
+        "basic": {
+            "name": {
+                "jp": "四国旅客鉄道",
+                "en": "Shikoku Railway Company"
+            },
+            "short name": "JR四国",
+            "category": "JR",
+            "headquarters": "香川県高松市",
+            "founded": 1987,
+        },
+
+        "detail": {
+            "status": "営業中",
+            "total_distance_km": 853.7,
+            "lines count": 9,
+            "stations count": 259,
+            "company": ["JR", "四国", "特殊会社"]
+        },
+
+        "corporate": {
+            "color str": "水色",
+        },
+
+        "notes": "国鉄分割民営化により発足。三島会社の一つ。JR旅客6社で唯一新幹線を持たない（四国新幹線導入を構想中）。",
+        "Last updated": "2026.6/21"
+    },
+
+    "JR Kyushu": {
+        "basic": {
+            "name": {
+                "jp": "九州旅客鉄道",
+                "en": "Kyushu Railway Company"
+            },
+            "short name": "JR九州",
+            "category": "JR",
+            "headquarters": "福岡県福岡市博多区",
+            "founded": 1987,
+        },
+
+        "detail": {
+            "status": "営業中",
+            "total_distance_km": 2342.6,
+            "lines count": 23,
+            "stations count": 597,
+            "company": ["JR", "九州", "民営"]
+        },
+
+        "corporate": {
+            "color str": "赤",
+        },
+
+        "notes": "国鉄分割民営化により発足。三島会社の一つだが、2016年に株式上場を達成し民営化を完了。",
+        "Last updated": "2026.6/21"
+    }
+}

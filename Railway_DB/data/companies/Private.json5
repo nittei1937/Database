@@ -1,0 +1,31 @@
+// {
+
+//     "": {
+//         "basic": {
+//             "name": {
+//                 "jp": "",
+//                 "en": ""
+//             },
+//             "short name": "",
+//             "category": "Private",
+//             "headquarters": "",
+//             "founded": ,
+//         },
+
+//         "detail": {
+//             "status": "営業中",
+//             "total_distance_km": "km",
+//             "lines count": ,
+//             "stations count": ,
+//             "company": [""]
+//         },
+
+//         "corporate": {
+//             "color str": "",
+//         },
+
+//         "notes": "",
+//         "Last updated": "2026."
+//     },
+
+// }

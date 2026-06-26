@@ -1,0 +1,137 @@
+{
+
+    // Example
+    // "line": {
+    //     "basic": {
+    //         "name": {
+    //             "jp": "",
+    //             "en": ""
+    //         },
+    //         "operator": [""],
+    //         "line color": "",
+    //         "line mark": "",
+    //     },
+    //     "detail": {
+    //         "status": "営業中",
+    //         "opened": "",
+    //         "rail length": "",
+    //         "total stations": ,
+    //         "category": [""]
+    //     },
+    //     "spec": {
+    //         "track": "複線",
+    //         "electrification": "",
+    //         "gauge": "mm",
+    //         "max speed": "km/h",
+    //     },
+    //     "rolling stock": [""],
+
+    //     "desc": "",
+    //     "history": "",
+    //     "notes": "",
+
+    //     "Last updated": "2026."
+    // },
+
+    "osaka loop line": {
+        "basic": {
+            "name": {
+                "jp": "大阪環状線",
+                "en": "Osaka Loop Line"
+            },
+            "operator": ["JR西日本"],
+            "line color": "赤",
+            "line mark": "O",
+        },
+        "detail": {
+            "status": "営業中",
+            "opened": "1961",
+            "rail length": "21.7km",
+            "total stations": 19,
+            "category": ["JR", "西日本", "関西", "民営", "在来線"]
+        },
+        "spec": {
+            "track": "複線",
+            "electrification": "直流1500V",
+            "gauge": "1067mm",
+            "max speed": "95km/h",
+        },
+        "rolling stock": ["323系", "201系", "221系", "225系"],
+
+        "desc": "大阪市内の環状運転・USJへの観光輸送を担当するJR西日本の路線。普通種別は環状運転するが、大和路線・阪和線からの直通運転は環状運転を行わず各路線の運行へ戻る。",
+        "history": "",
+        "notes": "大阪市内をループする通勤路線。環状運転は103系時代から続く。",
+
+        "Last updated": "2026.6/21"
+    },
+
+    "hanwa line": {
+        "basic": {
+            "name": {
+                "jp": "阪和線",
+                "en": "Hanwa Line"
+            },
+            "operator": ["JR西日本"],
+            "line color": "青",
+            "line mark": "R",
+        },
+
+        "detail": {
+            "status": "営業中",
+            "opened": "1929",
+            "rail length": "61.3km",
+            "total stations": "38",
+            "category": ["JR", "西日本", "関西", "民営", "在来線"]
+        },
+
+        "spec": {
+            "track": "複線",
+            "electrification": "直流1500V",
+            "gauge": "1067mm",
+            "max speed": "120km/h",
+        },
+
+        "rolling stock": ["223系", "225系"],
+
+        "desc": "天王寺と和歌山市街・関西空港を結ぶ都市間輸送と空港輸送を担当するJR西日本の路線。天王寺からは大阪環状線に直通し外回りで一周し阪和線に戻る。",
+        "history": "1929年：私鉄「阪和電気軌道」として阪和天王寺駅(現在の天王寺駅)～和泉府中駅間が開業。1930年：和泉府中駅～阪和東和歌山駅間が複線電化で延伸し全通。1940年：阪和電気軌道が南海電鉄に吸収合併され、「南海電鉄山手線」となる。1944年：戦争の激化に伴い国有化され「国鉄阪和線」となる。1987年：国鉄が解体され、JR西日本が承継し「JR西日本阪和線」となる。1996年：鳳駅以南の最高速度が120km/hに引き上げられる。1999年：紀州路快速が運転開始。2003年：近畿圏で「ICOCA」の利用サービスが開始され、阪和線も利用可能エリアとなる。2006年：杉本町以北の上下線の高架化が完了。2008年：大阪環状線直通運転が開始。2017年：東岸和田駅付近の上下線の高架化が完了。",
+        "notes": "大阪～和歌山を結ぶ。関空特急「はるか」、特急「くろしお」も走る。",
+
+        "Last updated": "2026.6/21"
+    },
+
+    "tokaido line west": {
+        "basic": {
+            "name": {
+                "jp": "東海道本線  JR西日本",
+                "en": "Tokaido Line  JR West"
+            },
+            "operator": ["JR西日本"],
+            "line color": "青",
+            "line mark": "A",
+        },
+
+        "detail": {
+            "status": "営業中",
+            "opened": "1874",
+            "rail length": "129.8km",
+            "total stations": "37",
+            "category": ["JR", "西日本", "関西","在来線"]
+        },
+
+        "spec": {
+            "track": "複々線・複線",
+            "electrification": "直流1500V",
+            "gauge": "1067mm",
+            "max speed": "130km/h",
+        },
+
+        "rolling stock": ["223系", "225系", "221系", "207系", "321系"],
+
+        "desc": "",
+        "history": "",
+        "notes": "米原－京都間は「琵琶湖線」、京都－大阪間は「JR京都線」、大阪－神戸間は「JR神戸線」という愛称で案内される。",
+
+        "Last updated": "2026.6/21"
+    },
+}

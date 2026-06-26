@@ -1,0 +1,5 @@
+{
+    "rolling_stock_files": ["JR_West.json5"],
+    "line_files": ["JR_West_Lines.json5"],
+    "company_files": ["JR.json5"],
+}

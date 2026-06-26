@@ -1,0 +1,146 @@
+{
+
+    // Example
+    // "series 000": {
+    //     "basic": {
+    //         "name": {
+    //             "jp": "",
+    //             "en": ""
+    //         },
+    //         "operator": [""],
+    //         "manufacturer": [""],
+    //     },
+
+    //     "detail": {
+    //         "status": "営業中",
+    //         "category": [""],
+    //         "manufactured": "",
+    //         "introduced": "",
+    //         "formation": "",
+    //         "fleet size": 0,
+    //         "car class": [""],
+    //         "lines": [""],
+    //     },
+
+    //     "spec": {
+    //         "train type": "",
+    //         "gauge": "mm",
+    //         "electrification": "",
+    //         "propulsion": "",
+    //         "max speed": "km/h",
+    //         "car body": "",
+    //         "door": {
+    //             "number": 0,
+    //             "type": ""
+    //         },
+    //         "seating": [""],
+    //         "safety": [""]
+    //     },
+    //     "notes": "",
+    //     "image": {
+    //         "path": "",
+    //         "desc": "画像は、"
+    //     },
+
+    //     "Last updated": "2026."
+    // },
+
+    "series 323": {
+        "basic": {
+            "name": {
+                "jp": "323系電車",
+                "en": "Series 323"
+            },
+            "operator": ["西日本旅客鉄道"],
+            "manufacturer": ["近畿車輛", "川崎重工業"],
+        },
+
+        "detail": {
+            "status": "営業中",
+            "category": ["JR","西日本", "関西", "在来線"],
+            "manufactured": "2016",
+            "introduced": "2016",
+            "formation": "8両編成",
+            "fleet size": 22,
+            "car class": ["クモハ323形", "モハ323形", "クモハ322形", "モハ322形"],
+            "lines": ["大阪環状線", "JRゆめ咲線"],
+        },
+
+        "spec": {
+            "train type": "通勤形電車",
+            "gauge": 1067,
+            "electrification": "直流1500V",
+            "propulsion": "VVVFインバータ制御（SiC-MOSFET）",
+            "max speed": 120,
+            "car body": "ステンレス鋼",
+            "door": {
+                "number": 3,
+                "type": "両開き"
+            },
+            "seating": ["ロングシート"],
+            "safety": ["ATS-P", "ATS-SW", "EB装置"]
+        },
+        "notes": "大阪環状線・JRゆめ咲線専用車両。103系・201系を置き換え。",
+        "image": {
+            "path": "Series323.png",
+            "desc": "画像は、323系LS21編成。"
+        },
+
+        "Last updated": "2026.6/21"
+    },
+
+    "series 223": {
+        "basic": {
+            "name": {
+                "jp": "223系電車",
+                "en": "Series 223"
+            },
+            "operator": ["西日本旅客鉄道"],
+            "manufacturer": ["近畿車輛", "川崎重工業"],
+        },
+
+        "detail": {
+            "status": "営業中",
+            "category": ["JR", "西日本", "関西", "在来線"],
+            "manufactured": "1994",
+            "introduced": "1994",
+            "formation": "8両編成・6両編成・4両編成・2両編成",
+            "fleet size": 850,
+            "car class": ["クモハ223形", "モハ223形", "クハ222形", "サハ223形"],
+            "variants": ["0番台", "1000番台", "2000番台", "2500番台", "3000番台", "5000番台", "5500番台", "6000番台"],
+            "variant notes": {
+                "0番台": "関空快速・紀州路快速用として登場した最初の編成。",
+                "1000番台": "新快速増発用。221系との併結を考慮した仕様。",
+                "2000番台": "1000番台の改良型。前面デザインが変更された。",
+                "2500番台": "JR四国乗入れ対応の2両編成。",
+                "3000番台": "新快速の130km/h運転対応強化型。",
+                "5000番台": "JR四国所有・本四備讃線（瀬戸大橋線）用。",
+                "5500番台": "5000番台のロングシート仕様車。",
+                "6000番台": "和歌山支社向け、阪和線・紀勢本線用。"
+            },
+            "lines": ["東海道本線", "山陽本線", "阪和線", "関西空港線", "瀬戸大橋線"],
+        },
+
+        "spec": {
+            "train type": "近郊形電車",
+            "gauge": 1067,
+            "electrification": "直流1500V",
+            "propulsion": "VVVFインバータ制御",
+            "max speed": 130,
+            "car body": "ステンレス鋼",
+            "door": {
+                "number": 3,
+                "type": "両開き"
+            },
+            "seating": ["転換クロスシート", "ロングシート"],
+            "safety": ["ATS-P", "ATS-SW", "EB装置"]
+        },
+        "notes": "JR西日本の直流近郊型電車。221系の設計を継承しつつ高性能化。番台ごとに性能・内装差が大きい。",
+        "image": {
+            "path": "Series223.png",
+            "desc": "画像は、223系2000番台V7編成。"
+        },
+
+        "Last updated": "2026.6/21"
+    }
+}

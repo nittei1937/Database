@@ -1,0 +1,49 @@
+{
+    // basic
+    "operator": "運営会社",
+    "manufacturer": "製造会社",
+    "short name": "略称",
+    "category": "区分",
+    "headquarters": "本社所在地",
+    "founded": "設立年",
+    "line color": "ラインカラー",
+
+    // detail
+    "status": "状態",
+    "manufactured": "製造年",
+    "introduced": "運用開始",
+    "formation": "編成",
+    "fleet size": "在籍数",
+    "car class": "車種",
+    "variants": "番台",
+    "variant notes": "番台別解説",
+    "lines": "使用路線",
+    "opened": "開業年",
+    "distance": "距離(km)",
+    "stations": "駅数",
+    "loop": "環状運転",
+    "total_distance_km": "総営業距離(km)",
+    "lines count": "路線数",
+    "stations count": "駅数",
+
+    // spec
+    "train type": "車両種別",
+    "gauge": "軌間(mm)",
+    "electrification": "電化方式",
+    "propulsion": "制御方式",
+    "max speed": "最高速度(km/h)",
+    "car body": "車体",
+    "door": "ドア",
+    "number": "枚数",
+    "type": "タイプ",
+    "seating": "座席",
+    "safety": "保安装置",
+    "track": "線路形式",
+
+
+    // corporate
+    "color str": "コーポレートカラー",
+
+    // rolling stock (路線側で使用する車両一覧)
+    "rolling stock": "使用車両",
+}

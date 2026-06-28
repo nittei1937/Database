@@ -1,0 +1,84 @@
+{
+
+    "basic": {
+        "country name": {
+            "jp": "日本国",
+            "en": "Japan"
+        },
+        "capital": "東京都",
+        "language": "日本語",
+        "currency": "円 / ¥",
+    },
+
+    "detail": {
+        "flag": "日章旗",
+        "anthem": "君が代",
+        "emblem": "菊花紋章",
+        "state status": "独立主権国家",
+        "Int status": "承認国家",
+        "established": "-660",
+
+        "population": "",
+        "area": "",
+    },
+
+    "government": {
+        "form": ["立憲君主制"],
+        "ideology": ["自由主義", "民主主義"],
+        "system type": ["議院内閣制"],
+
+        "head of state": {
+            "person name": "徳仁",
+            "title": "天皇",
+            "number": "126",
+            "party": null
+        },
+        "head of government": {
+            "person name": "高市早苗",
+            "title": "内閣総理大臣",
+            "number": "105",
+            "party": "自由民主党",
+            "coalition": ["自由民主党","日本維新の会"]
+        }
+    },
+
+    "economy": {
+        "currency": {
+            "name": "円 (yen)",
+            "symbol": "¥"
+        },
+
+        "gdp": {
+            "world rank": {
+                "rank": "5",
+                "year": "2025"
+            },
+            "unit": "米ドル / US$",
+            "nominal GDP": "",
+            "real GDP": ""
+        }
+    },
+
+    "military": {
+        "army name": "陸上自衛隊",
+        "navy name": "海上自衛隊",
+        "airforce": "航空自衛隊",
+        "another": []
+    },
+
+    "international": {
+        "organizations": [
+            {
+                "name": {
+                    "jp": "国際連合",
+                    "en": "United Nations"
+                },
+                "abb": "UN"
+            }
+        ],
+    },
+
+    "image": "Japan.png",
+    
+    "Last updated": "2026.6/28"
+}

@@ -1,0 +1,103 @@
+{
+
+    "basic": {
+        "country name": {
+            "jp": "ドイツ連邦共和国",
+            "en": "Federal Republic of Germany"
+        },
+        "capital": "ベルリン",
+        "language": "ドイツ語",
+        "currency": "ユーロ / €",
+    },
+
+    "detail": {
+        "flag": "ドイツ国旗",
+        "anthem": "ドイツの歌",
+        "emblem": "",
+        "state status": "独立主権国家",
+        "Int status": "承認国家",
+        "established": "1991",
+
+        "population": "8,350,000,000",
+        "area": "357,578km2",
+    },
+
+    "government": {
+        "form": ["立憲共和制"],
+        "ideology": ["自由主義","民主主義"],
+        "system type": ["議院内閣制","半大統領制"],
+
+        "head of state": {
+            "person name": "フランク＝ヴァルター・シュタインマイヤー",
+            "title": "連邦大統領",
+            "number": "12",
+            "party": "ドイツ社会民主党"
+        },
+        "head of government": {
+            "person name": "フリードリヒ・メルツ",
+            "title": "連邦首相",
+            "number": "10",
+            "party": "ドイツキリスト教民主同盟",
+            "coalition": ["ドイツキリスト教民主同盟","ドイツキリスト教社会同盟","ドイツ社会民主党"]
+        }
+    },
+
+    "economy": {
+        "currency": {
+            "name": "ユーロ",
+            "symbol": "€"
+        },
+
+        "gdp": {
+            "world rank": {
+                "rank": "3",
+                "year": "2025"
+            },
+            "unit": "米ドル / US$",
+            "nominal GDP": "5,000,000,481",
+            "real GDP": "4,680,000,000,000"
+        }
+    },
+
+    "military": {
+        "army name": "ドイツ連邦陸軍",
+        "navy name": "ドイツ連邦海軍",
+        "airforce": "ドイツ連邦空軍",
+        "another": ["統合支援軍","サイバー・情報空間軍司令部"]
+    },
+
+    "international": {
+        "organizations": [
+            {
+                "name": {
+                    "jp": "国際連合",
+                    "en": "United Nations"
+                },
+                "abb": "UN"
+            }
+        ],
+
+        "unions": [
+            {
+                "name": {
+                    "jp": "欧州連合",
+                    "en": "European Union"
+                },
+                "abb": "EU"
+            }
+        ],
+
+        "military alliances": [
+            {
+                "name": {
+                    "jp": "北大西洋条約機構",
+                    "en": "North Atlantic Treaty Organization"
+                },
+                "abb": "NATO"
+            }
+        ]
+    },
+
+    "image": "",
+    "Last updated": "2026."
+}

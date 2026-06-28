@@ -1,5 +1,5 @@
 {
-    "rolling_stock_files": ["JR_West.json5"],
-    "line_files": ["JR_West_Lines.json5"],
-    "company_files": ["JR.json5"],
+    "rolling_stock_dirs": ["cars"],
+    "line_dirs": ["lines"],
+    "company_dirs": ["companies"]
 }

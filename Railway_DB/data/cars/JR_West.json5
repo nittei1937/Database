@@ -45,6 +45,50 @@
     //     "Last updated": "2026."
     // },
 
+    "series 221": {
+        "basic": {
+            "name": {
+                "jp": "221系電車",
+                "en": "Series 221"
+            },
+            "operator": ["JR西日本"],
+            "manufacturer": ["川崎重工業カンパニー","日立製作所笠戸事業所","西日本旅客鉄道鷹取工場","西日本旅客鉄道後藤車両所"],
+        },
+
+        "detail": {
+            "status": "営業中",
+            "category": ["JR", "西日本", "在来線"],
+            "manufactured": "1989~1992",
+            "introduced": "1989",
+            "formation": "8両編成、6両編成、4両編成",
+            "fleet size": 474,
+            "car class": ["クモハ221形","モハ221形","クハ221形","サハ221形"],
+            "lines": ["東海道本線","湖西線","草津線","山陰本線","福知山線","播但線","阪和線","きのくに線","大和路線","おおさか東線","奈良線"],
+        },
+
+        "spec": {
+            "train type": "通勤形電車",
+            "gauge": "1047mm",
+            "electrification": "直流1500v",
+            "propulsion": "",
+            "max speed": "km/h",
+            "car body": "ステンレス",
+            "door": {
+                "number": 3,
+                "type": "両開き"
+            },
+            "seating": ["転換クロスシート"],
+            "safety": ["ATS-SW","ATS-P・ATS-B"]
+        },
+        "notes": "",
+        "image": {
+            "path": "",
+            "desc": "画像は、"
+        },
+
+        "Last updated": "2026.6/28"
+    },
+
     "series 323": {
         "basic": {
             "name": {
@@ -142,5 +186,47 @@
         },
 
         "Last updated": "2026.6/21"
-    }
+    },
+
+    "series 225": {
+        "basic": {
+            "name": {
+                "jp": "225系電車",
+                "en": "Series 225"
+            },
+            "operator": ["JR西日本"],
+            "manufacturer": ["川崎重工業カンパニー","近畿車輛"],
+        },
+
+        "detail": {
+            "status": "営業中",
+            "category": ["JR", "西日本", "在来線"],
+            "manufactured": "2010",
+            "introduced": "2010",
+            "formation": "8両編成・6両編成・4両編成",
+            "fleet size": 524,
+            "car class": ["クモハ225形", "クモハ224形", "モハ225形", "モハ224形"],
+            "lines": ["東海道本線", "福知山線", "阪和線", "関西空港線", "きのくに線"],
+        },
+
+        "spec": {
+            "train type": "近郊形電車",
+            "gauge": 1067,
+            "electrification": "直流1500V",
+            "propulsion": "VVVFインバータ制御",
+            "max speed": 130,
+            "car body": "ステンレス",
+            "door": {
+                "number": 3,
+                "type": "両開き"
+            },
+            "seating": ["転換クロスシート", "ロングシート"],
+            "safety": ["ATS-P", "ATS-SW", "EB装置"]
+        },
+        "notes": "JR西日本の直流近郊型電車。223系と並ぶ京阪神の新快速主力車両で、221系の快適なコンセプトを継承。",
+        "image": {
+            "path": "Series225.png",
+            "desc": "画像は、225系0番台I7編成。"
+        },
+    },
 }

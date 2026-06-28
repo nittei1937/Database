@@ -1,0 +1,61 @@
+{
+    // basic
+    "basic": "基本情報",
+    "country name": "国名",
+    "jp": "日本語",
+    "en": "英語",
+    "capital": "首都",
+    "language": "公用語",
+    "currency": "通貨",
+
+    // detail
+    "detail": "詳細情報",
+    "flag": "国旗",
+    "anthem": "国歌",
+    "emblem": "国章",
+    "state status": "国家状態",
+    "Int status": "国際的地位",
+    "established": "成立年",
+    "population": "人口",
+    "area": "面積",
+
+    // government
+    "government": "政府",
+    "form": "政治体制",
+    "ideology": "思想・主義",
+    "system type": "制度",
+    "head of state": "国家元首",
+    "head of government": "政府首班",
+    "party": "政党",
+    "coalition": "与党",
+    "person name": "人物名",
+    "title": "役職・称号",
+    "number": "代数",
+
+    // economy
+    "economy": "経済",
+    "name": "名称",
+    "symbol": "記号",
+    "gdp": "GDP",
+    "world rank": "世界順位",
+    "rank": "順位",
+    "year": "年",
+    "nominal GDP": "名目GDP",
+    "real GDP": "実質GDP",
+
+    // military
+    "military": "軍事",
+    "army name": "陸軍名",
+    "navy name": "海軍名",
+    "airforce": "空軍名",
+    "another": "その他の軍事組織",
+
+    // international
+    "international": "国際",
+    "organizations": "加盟機関",
+    "regional organizations": "地域機関",
+    "military alliances": "軍事同盟",
+
+    // metadata
+    "Last updated": "最終更新"
+}

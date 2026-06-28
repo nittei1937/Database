@@ -1,0 +1,81 @@
+// Country
+
+{
+
+    "basic": {
+        "country name": {
+            "jp": "",
+            "en": ""
+        },
+        "capital": "",
+        "language": "",
+        "currency": "",
+    },
+
+    "detail": {
+        "flag": "",
+        "anthem": "",
+        "emblem": "",
+        "state status": "",
+        "Int status": "",
+        "established": "",
+
+        "population": "",
+        "area": "",
+    },
+
+    "government": {
+        "form": [""],
+        "ideology": [""],
+        "system type": [""],
+
+        "head of state": {
+            "person name": "",
+            "title": "",
+            "number": ""
+        },
+        "head of government": {
+            "person name": "",
+            "title": "",
+            "number": ""
+        }
+    },
+
+    "economy": {
+        "currency": {
+            "name": "",
+            "symbol": ""
+        },
+
+        "gdp": {
+            "world rank": {
+                "rank": "",
+                "year": ""
+            },
+            "nominal GDP": "",
+            "real GDP": ""
+        }
+    },
+
+    "military": {
+        "army name": "",
+        "navy name": "",
+        "airforce": "",
+        "another": []
+    },
+
+    "international": {
+        "member organization": [
+            {
+                "name": {
+                    "jp": "国際連合",
+                    "en": "United Nations"
+                },
+                "abb": "UN"
+            },
+        ]
+    },
+
+    "image": "",
+    "Last updated": "2026."
+}

@@ -13,37 +13,85 @@
 
     //     "detail": {
     //         "status": "営業中",
-    //         "category": [""],
+    //         "category": ["JR", "西日本", "在来線"],
     //         "manufactured": "",
     //         "introduced": "",
     //         "formation": "",
-    //         "fleet size": 0,
+    //         "fleet size": ,
     //         "car class": [""],
     //         "lines": [""],
     //     },
 
     //     "spec": {
     //         "train type": "",
-    //         "gauge": "mm",
+    //         "gauge": 1067,
     //         "electrification": "",
     //         "propulsion": "",
-    //         "max speed": "km/h",
+    //         "max speed": ,
     //         "car body": "",
     //         "door": {
-    //             "number": 0,
-    //             "type": ""
+    //             "number": 3,
+    //             "type": "両開き"
     //         },
     //         "seating": [""],
-    //         "safety": [""]
+    //         "safety": ["ATS-P", "ATS-SW", "EB装置"]
     //     },
     //     "notes": "",
     //     "image": {
     //         "path": "",
-    //         "desc": "画像は、"
+    //         "desc": ""
     //     },
-
-    //     "Last updated": "2026."
     // },
+
+    "series 207": {
+        "basic": {
+            "name": {
+                "jp": "207系電車",
+                "en": "Series 207"
+            },
+            "operator": ["西日本旅客鉄道"],
+            "manufacturer": ["川崎重工業", "近畿車輛", "日立製作所"],
+        },
+
+        "detail": {
+            "status": "営業中",
+            "category": ["JR", "西日本", "関西", "在来線"],
+            "manufactured": "1991",
+            "introduced": "1991",
+            "formation": "4両編成・3両編成(併結で6両・7両編成)",
+            "fleet size": 470,
+            "car class": ["クモハ207形", "モハ207形", "モハ206形", "クハ207形", "クハ206形", "サハ207形"],
+            "variants": ["0番台", "1000番台", "2000番台"],
+            "variant notes": {
+                "0番台": "1991年登場の最初期グループ。量産先行車(F1編成・7両固定、2022年除籍)を含み、4両編成(Z・H編成)・3両編成(A・B・V編成)で製造。電動車ユニット方式を採用。",
+                "1000番台": "JR東西線開業準備を目的に1994年から製造。電動車ユニット方式を廃止し、新たにクモハ207形を設定。4両編成(T編成)・3両編成(S編成)で構成。",
+                "2000番台": "2002年から学研都市線輸送改善のため製造。223系2000番台をベースとした車両制御装置を搭載し、新製時からATS-Pを装備。"
+            },
+            "lines": ["東海道本線", "山陽本線", "福知山線", "JR東西線", "片町線", "和田岬線", "関西本線"],
+        },
+
+        "spec": {
+            "train type": "通勤形電車",
+            "gauge": 1067,
+            "electrification": "直流1500V",
+            "propulsion": "VVVFインバータ制御",
+            "max speed": 120,
+            "car body": "オールステンレス",
+            "door": {
+                "number": 4,
+                "type": "両開き"
+            },
+            "seating": ["ロングシート"],
+            "safety": ["ATS-P", "ATS-SW", "EB装置"]
+        },
+        "notes": "JR西日本初のVVVFインバータ制御車で、片福連絡線(現JR東西線)対応の通勤形電車として開発。221系の設計コンセプトを継承し、老朽化した103系を置き換えた。2005年のJR福知山線脱線事故では当該編成(Z16・S18編成)が被災し、以降帯色が紺とオレンジに変更された。",
+        "image": {
+            "path": "Series207.png",
+            "desc": "画像は、207系0番台Z7編成。"
+        },
+
+        "Last updated": "2026.7/1"
+    },
 
     "series 221": {
         "basic": {
@@ -87,50 +135,6 @@
         },
 
         "Last updated": "2026.6/28"
-    },
-
-    "series 323": {
-        "basic": {
-            "name": {
-                "jp": "323系電車",
-                "en": "Series 323"
-            },
-            "operator": ["西日本旅客鉄道"],
-            "manufacturer": ["近畿車輛", "川崎重工業"],
-        },
-
-        "detail": {
-            "status": "営業中",
-            "category": ["JR","西日本", "関西", "在来線"],
-            "manufactured": "2016",
-            "introduced": "2016",
-            "formation": "8両編成",
-            "fleet size": 22,
-            "car class": ["クモハ323形", "モハ323形", "クモハ322形", "モハ322形"],
-            "lines": ["大阪環状線", "JRゆめ咲線"],
-        },
-
-        "spec": {
-            "train type": "通勤形電車",
-            "gauge": 1067,
-            "electrification": "直流1500V",
-            "propulsion": "VVVFインバータ制御（SiC-MOSFET）",
-            "max speed": 120,
-            "car body": "ステンレス鋼",
-            "door": {
-                "number": 3,
-                "type": "両開き"
-            },
-            "seating": ["ロングシート"],
-            "safety": ["ATS-P", "ATS-SW", "EB装置"]
-        },
-        "notes": "大阪環状線・JRゆめ咲線専用車両。103系・201系を置き換え。",
-        "image": {
-            "path": "Series323.png",
-            "desc": "画像は、323系LS21編成。"
-        },
-
-        "Last updated": "2026.6/21"
     },
 
     "series 223": {
@@ -228,5 +232,93 @@
             "path": "Series225.png",
             "desc": "画像は、225系0番台I7編成。"
         },
+    },
+
+    "series 321": {
+        "basic": {
+            "name": {
+                "jp": "321系電車",
+                "en": "Series 321"
+            },
+            "operator": ["西日本旅客鉄道"],
+            "manufacturer": ["近畿車輛"],
+        },
+
+        "detail": {
+            "status": "営業中",
+            "category": ["JR", "西日本", "関西", "在来線"],
+            "manufactured": "2005",
+            "introduced": "2005",
+            "formation": "7両編成",
+            "fleet size": 273,
+            "car class": ["クモハ321形", "クモハ320形", "モハ321形", "モハ320形", "サハ321形"],
+            "lines": ["東海道本線", "山陽本線", "福知山線", "JR東西線", "片町線", "関西本線"],
+        },
+
+        "spec": {
+            "train type": "通勤形電車",
+            "gauge": 1067,
+            "electrification": "直流1500V",
+            "propulsion": "VVVFインバータ制御(IGBT・2レベル・ベクトル制御)",
+            "max speed": 120,
+            "car body": "ステンレス鋼(レーザー溶接構造)",
+            "door": {
+                "number": 4,
+                "type": "両開き"
+            },
+            "seating": ["ロングシート(バケットシート)"],
+            "safety": ["ATS-P", "ATS-SW", "EB装置", "TE装置"]
+        },
+        "notes": "京阪神緩行線用201系・205系の置き換えと、JR福知山線脱線事故で廃車となった207系の補充を目的に2005年12月に営業運転を開始。台車単位の力行・ブレーキ制御や「0.5Mシステム」による全電動車編成など、207系以降の技術を全面的に見直した新設計を採用。207系と共通運用されている。",
+        "image": {
+            "path": "Series321.png",
+            "desc": "画像は、321系D17編成。"
+        },
+
+        "Last updated": "2026.7/1"
+    },
+
+    "series 323": {
+        "basic": {
+            "name": {
+                "jp": "323系電車",
+                "en": "Series 323"
+            },
+            "operator": ["西日本旅客鉄道"],
+            "manufacturer": ["近畿車輛", "川崎重工業"],
+        },
+
+        "detail": {
+            "status": "営業中",
+            "category": ["JR","西日本", "関西", "在来線"],
+            "manufactured": "2016",
+            "introduced": "2016",
+            "formation": "8両編成",
+            "fleet size": 22,
+            "car class": ["クモハ323形", "モハ323形", "クモハ322形", "モハ322形"],
+            "lines": ["大阪環状線", "JRゆめ咲線"],
+        },
+
+        "spec": {
+            "train type": "通勤形電車",
+            "gauge": 1067,
+            "electrification": "直流1500V",
+            "propulsion": "VVVFインバータ制御（SiC-MOSFET）",
+            "max speed": 120,
+            "car body": "ステンレス鋼",
+            "door": {
+                "number": 3,
+                "type": "両開き"
+            },
+            "seating": ["ロングシート"],
+            "safety": ["ATS-P", "ATS-SW", "EB装置"]
+        },
+        "notes": "大阪環状線・JRゆめ咲線専用車両。103系・201系を置き換え。",
+        "image": {
+            "path": "Series323.png",
+            "desc": "画像は、323系LS21編成。"
+        },
+
+        "Last updated": "2026.6/21"
     },
 }

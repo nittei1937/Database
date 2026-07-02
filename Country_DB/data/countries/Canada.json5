@@ -1,0 +1,103 @@
+{
+
+    "basic": {
+        "country name": {
+            "jp": "カナダ",
+            "en": "Canada"
+        },
+        "capital": "オタワ",
+        "language": "英語・フランス語",
+        "currency": "カナダドル / C$",
+    },
+
+    "detail": {
+        "flag": "メープルリーフ旗",
+        "anthem": "オー・カナダ",
+        "emblem": "カナダの国章",
+        "state status": "独立主権国家",
+        "Int status": "承認国家",
+        "established": "1867",
+
+        "population": "41,500,000",
+        "area": "9,984,670km2",
+    },
+
+    "government": {
+        "form": ["連邦立憲君主制"],
+        "ideology": ["自由主義","民主主義"],
+        "system type": ["議院内閣制"],
+
+        "head of state": {
+            "person name": "チャールズ3世（代理：メアリー・サイモン総督）",
+            "title": "国王（元首代理：カナダ総督）",
+            "number": "3",
+            "party": "（王室・政党なし）"
+        },
+        "head of government": {
+            "person name": "マーク・カーニー",
+            "title": "首相",
+            "number": "24",
+            "party": "自由党",
+            "coalition": ["自由党"]
+        }
+    },
+
+    "economy": {
+        "currency": {
+            "name": "カナダドル",
+            "symbol": "C$"
+        },
+
+        "gdp": {
+            "world rank": {
+                "rank": "10",
+                "year": "2025"
+            },
+            "unit": "米ドル / US$",
+            "nominal GDP": "2,250,000,000,000",
+            "real GDP": "2,050,000,000,000"
+        }
+    },
+
+    "military": {
+        "army name": "カナダ陸軍",
+        "navy name": "カナダ海軍",
+        "airforce": "カナダ空軍",
+        "another": ["カナダ王立騎馬警察（連邦法執行機関）"]
+    },
+
+    "international": {
+        "organizations": [
+            {
+                "name": {
+                    "jp": "国際連合",
+                    "en": "United Nations"
+                },
+                "abb": "UN"
+            }
+        ],
+
+        "unions": [
+            {
+                "name": {
+                    "jp": "米国・メキシコ・カナダ協定",
+                    "en": "United States-Mexico-Canada Agreement"
+                },
+                "abb": "USMCA"
+            }
+        ],
+
+        "military alliances": [
+            {
+                "name": {
+                    "jp": "北大西洋条約機構",
+                    "en": "North Atlantic Treaty Organization"
+                },
+                "abb": "NATO"
+            }
+        ]
+    },
+
+    "image": "Canada.png",
+    "Last updated": "2026.",
+}

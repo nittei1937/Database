@@ -1,0 +1,103 @@
+{
+
+    "basic": {
+        "country name": {
+            "jp": "アメリカ合衆国",
+            "en": "United States of America"
+        },
+        "capital": "ワシントンD.C.",
+        "language": "英語（事実上の公用語）",
+        "currency": "米ドル / $",
+    },
+
+    "detail": {
+        "flag": "星条旗",
+        "anthem": "星条旗（The Star-Spangled Banner）",
+        "emblem": "アメリカ合衆国国章",
+        "state status": "独立主権国家",
+        "Int status": "承認国家",
+        "established": "1776",
+
+        "population": "342,000,000",
+        "area": "9,833,517km2",
+    },
+
+    "government": {
+        "form": ["連邦共和制"],
+        "ideology": ["自由主義","民主主義","資本主義"],
+        "system type": ["大統領制"],
+
+        "head of state": {
+            "person name": "ドナルド・J・トランプ",
+            "title": "大統領",
+            "number": "47",
+            "party": "共和党"
+        },
+        "head of government": {
+            "person name": "ドナルド・J・トランプ",
+            "title": "大統領（行政府の長を兼任）",
+            "number": "47",
+            "party": "共和党",
+            "coalition": ["共和党"]
+        }
+    },
+
+    "economy": {
+        "currency": {
+            "name": "米ドル",
+            "symbol": "$"
+        },
+
+        "gdp": {
+            "world rank": {
+                "rank": "1",
+                "year": "2025"
+            },
+            "unit": "米ドル / US$",
+            "nominal GDP": "30,300,000,000,000",
+            "real GDP": "23,500,000,000,000"
+        }
+    },
+
+    "military": {
+        "army name": "アメリカ合衆国陸軍",
+        "navy name": "アメリカ合衆国海軍",
+        "airforce": "アメリカ合衆国空軍",
+        "another": ["アメリカ宇宙軍","アメリカ海兵隊","アメリカ沿岸警備隊"]
+    },
+
+    "international": {
+        "organizations": [
+            {
+                "name": {
+                    "jp": "国際連合",
+                    "en": "United Nations"
+                },
+                "abb": "UN"
+            }
+        ],
+
+        "unions": [
+            {
+                "name": {
+                    "jp": "米国・メキシコ・カナダ協定",
+                    "en": "United States-Mexico-Canada Agreement"
+                },
+                "abb": "USMCA"
+            }
+        ],
+
+        "military alliances": [
+            {
+                "name": {
+                    "jp": "北大西洋条約機構",
+                    "en": "North Atlantic Treaty Organization"
+                },
+                "abb": "NATO"
+            }
+        ]
+    },
+
+    "image": "America.png",
+    "Last updated": "2026.",
+}

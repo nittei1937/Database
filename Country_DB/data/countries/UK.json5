@@ -1,0 +1,103 @@
+{
+
+    "basic": {
+        "country name": {
+            "jp": "グレートブリテン及び北アイルランド連合王国",
+            "en": "United Kingdom of Great Britain and Northern Ireland"
+        },
+        "capital": "ロンドン",
+        "language": "英語",
+        "currency": "英ポンド / £",
+    },
+
+    "detail": {
+        "flag": "ユニオンジャック",
+        "anthem": "ゴッド・セイヴ・ザ・キング",
+        "emblem": "連合王国の紋章",
+        "state status": "独立主権国家",
+        "Int status": "承認国家",
+        "established": "1801",
+
+        "population": "68,300,000",
+        "area": "243,610km2",
+    },
+
+    "government": {
+        "form": ["議会君主制"],
+        "ideology": ["自由主義","民主主義"],
+        "system type": ["議院内閣制"],
+
+        "head of state": {
+            "person name": "チャールズ3世",
+            "title": "国王",
+            "number": "3",
+            "party": "（王室・政党なし）"
+        },
+        "head of government": {
+            "person name": "キア・スターマー",
+            "title": "首相",
+            "number": "58",
+            "party": "労働党",
+            "coalition": ["労働党"]
+        }
+    },
+
+    "economy": {
+        "currency": {
+            "name": "英ポンド",
+            "symbol": "£"
+        },
+
+        "gdp": {
+            "world rank": {
+                "rank": "6",
+                "year": "2025"
+            },
+            "unit": "米ドル / US$",
+            "nominal GDP": "3,700,000,000,000",
+            "real GDP": "3,300,000,000,000"
+        }
+    },
+
+    "military": {
+        "army name": "イギリス陸軍",
+        "navy name": "イギリス海軍",
+        "airforce": "イギリス空軍",
+        "another": ["イギリス特殊部隊","王立海兵隊"]
+    },
+
+    "international": {
+        "organizations": [
+            {
+                "name": {
+                    "jp": "国際連合",
+                    "en": "United Nations"
+                },
+                "abb": "UN"
+            }
+        ],
+
+        "unions": [
+            {
+                "name": {
+                    "jp": "英連邦",
+                    "en": "Commonwealth of Nations"
+                },
+                "abb": "Commonwealth"
+            }
+        ],
+
+        "military alliances": [
+            {
+                "name": {
+                    "jp": "北大西洋条約機構",
+                    "en": "North Atlantic Treaty Organization"
+                },
+                "abb": "NATO"
+            }
+        ]
+    },
+
+    "image": "UK.png",
+    "Last updated": "2026.",
+}

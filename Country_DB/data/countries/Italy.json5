@@ -1,0 +1,103 @@
+{
+
+    "basic": {
+        "country name": {
+            "jp": "イタリア共和国",
+            "en": "Italian Republic"
+        },
+        "capital": "ローマ",
+        "language": "イタリア語",
+        "currency": "ユーロ / €",
+    },
+
+    "detail": {
+        "flag": "イタリア国旗（トリコローレ）",
+        "anthem": "マメーリの賛歌",
+        "emblem": "イタリア共和国の紋章",
+        "state status": "独立主権国家",
+        "Int status": "承認国家",
+        "established": "1946",
+
+        "population": "58,900,000",
+        "area": "301,340km2",
+    },
+
+    "government": {
+        "form": ["共和制"],
+        "ideology": ["民主主義","保守主義（現政権）"],
+        "system type": ["議院内閣制"],
+
+        "head of state": {
+            "person name": "セルジョ・マッタレッラ",
+            "title": "共和国大統領",
+            "number": "12",
+            "party": "無所属"
+        },
+        "head of government": {
+            "person name": "ジョルジャ・メローニ",
+            "title": "閣僚評議会議長（首相）",
+            "number": "31",
+            "party": "イタリアの同胞",
+            "coalition": ["イタリアの同胞","同盟","フォルツァ・イタリア"]
+        }
+    },
+
+    "economy": {
+        "currency": {
+            "name": "ユーロ",
+            "symbol": "€"
+        },
+
+        "gdp": {
+            "world rank": {
+                "rank": "9",
+                "year": "2025"
+            },
+            "unit": "米ドル / US$",
+            "nominal GDP": "2,400,000,000,000",
+            "real GDP": "2,150,000,000,000"
+        }
+    },
+
+    "military": {
+        "army name": "イタリア陸軍",
+        "navy name": "イタリア海軍",
+        "airforce": "イタリア空軍",
+        "another": ["カラビニエリ（国家憲兵）"]
+    },
+
+    "international": {
+        "organizations": [
+            {
+                "name": {
+                    "jp": "国際連合",
+                    "en": "United Nations"
+                },
+                "abb": "UN"
+            }
+        ],
+
+        "unions": [
+            {
+                "name": {
+                    "jp": "欧州連合",
+                    "en": "European Union"
+                },
+                "abb": "EU"
+            }
+        ],
+
+        "military alliances": [
+            {
+                "name": {
+                    "jp": "北大西洋条約機構",
+                    "en": "North Atlantic Treaty Organization"
+                },
+                "abb": "NATO"
+            }
+        ]
+    },
+
+    "image": "Italy.png",
+    "Last updated": "2026.",
+}
